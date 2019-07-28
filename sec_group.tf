@@ -16,4 +16,10 @@ resource "aws_security_group" "sec1" {
     protocol    = "-1"
     cidr_blocks = ["0.0.0.0/0"]
  }
+ tags = {
+        name = "dev"
+        dept = "it"
+        group = "april"
+        created_by = "levent"
+    }
 }
