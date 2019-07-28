@@ -1,7 +1,7 @@
 resource "aws_security_group" "sec1" {
   name        = "sec1"
   description = "Allow ssh"
-  vpc_id      = "vpc-7d292d1b"
+  vpc_id      = "vpc-b456cbce"
 
   ingress {
     # TLS (change to whatever ports you need)
