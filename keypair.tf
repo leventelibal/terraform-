@@ -1,4 +1,4 @@
 resource "aws_key_pair" "terraform" {
   key_name   = "terraform-key"
-  public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDv6vTE3WrVBsrZGfDr6SZmPkSbCCI64kyInUEeoI/DLvhO2sc6r4dU5GtRskI8nWXemhsdSIwlIJEkOSHNwFPfHsxEJo8Pz4z4iNcP6k+PE8TBwkL4Jfe3dnGtthPTS+fkJfWP5Buel686GnstDffUpKRNSOF7w5O6UpkPgOE1PzbfUe7idvU98MhIpuiH8iTGr+u3PeRjyVgEPbaN7rIDUdSPfSK74IM4fAklbnvqL/iUh6iFWfduuHYhCTfsFrLyVd+b+KpepkO0SEPQhXDYYQMxAX9OBmScvOlBUO8afFwSDLlugc46c06CF28eyivmbcdZd5UvB3C2TeiNTIOZ root@ip-172-31-27-87.eu-west-1.compute.internal"
+  public_key = ""
   }
