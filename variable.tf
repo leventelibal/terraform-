@@ -1,2 +1,4 @@
 variable "ami" {}
-instance_type  ""
+variable "instance_type" {}
+variable "Env" {}
+
